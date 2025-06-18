@@ -1,0 +1,308 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.container {
+    width: 100vw;
+    margin: auto;
+}
+
+/*HEADER*/
+
+header {
+    display: none;
+}
+
+.secOne {
+    background-color: rgba(137, 43, 226, 0.466);
+}
+
+.nav {   
+    display: flex;
+    justify-content: flex-end;
+    padding: 2% 20%;
+    margin: 0  0.5em;
+}
+
+nav a {
+    margin-left: 2em;
+}
+
+.titrePlusImage {
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.titrePlusImage h1,
+.titrePlusImage h2 {
+    margin: 0.5em 0;
+}
+
+.secOne img {
+    width: 50%;
+    margin: 0 0 2em 0;
+    box-shadow: 1px 3px 13px rgba(0, 0, 0, 0.486);
+    border-radius: 0.5em;
+}
+
+/*DESCRIBE*/
+
+.picturePhone {
+    width: 100%;
+    margin: 2em 0;
+    display: flex;
+    justify-content: space-evenly;    
+    background-image: url(Ressources/phone.png);
+    background-size: 20em;
+    background-repeat: no-repeat; 
+    background-position: center top 12em; 
+}
+
+.security, .premium {
+    margin: 2em;
+    padding: 2em;
+}
+
+.describe h2, p {
+    margin-bottom: 2em;
+}
+
+.describe button {
+    height: 3em;
+    width: 15em;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(0, 47, 255, 0.233);
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.644);
+    border-radius: 0.5em;
+}
+
+
+
+/* THE BEST */
+
+.titreTheBest {
+    margin: 5em 0 2.5em 0;  
+    text-align: center;
+}
+
+.pictoPlusDescription {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;    
+        
+}
+
+.theBest div p,
+.theBest div h2 {    
+    margin: 1em 1em;    
+}
+
+.theBest img{
+    height: 75px;
+}
+
+
+/* GRID */
+
+.pictureGrid {
+    background-color: rgba(137, 43, 226, 0.466);
+    text-align: center;
+    margin: 5em 0;
+    padding: 1em 5em;
+    color: white;   
+}
+
+.pictureGrid img {
+    width: 100%;
+    height: 95%;
+    box-shadow: 1px 3px 13px rgba(0, 0, 0, 0.486);
+    border-radius: 0.5em;
+}
+
+.pictureGrid .grid { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 45% 45%;
+    gap: 2.5%;
+}
+
+.pictureGrid h1 {
+    padding: 0.5em 0;
+    font-size: 2.5em;
+}
+
+/* -------------------  */
+
+.containerPuce {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5em 0;
+}
+
+.backGround {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30%;   
+    background-color: rgba(0, 0, 0, 0.459);
+    padding: 1em;
+    border-radius: 0.5em;
+    box-shadow: 1px 3px 13px rgba(0, 0, 0, 0.486);
+}
+
+.colGauche  {
+    width:9%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.colGauche img , 
+.colDroite img {
+    height: 75%;    
+}
+
+.backGroundFacebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65%;
+    background-color: rgba(0, 0, 0, 0.459);
+    padding: 2em;
+    border-radius: 0.5em;
+    box-shadow: 1px 3px 13px rgba(0, 0, 0, 0.486);    
+}
+
+.backGroundPinterest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 29%;
+    background-color: rgba(0, 0, 0, 0.459);
+    padding: 2em;
+    border-radius: 0.5em;
+    box-shadow: 1px 3px 13px rgba(0, 0, 0, 0.486);
+}
+
+.center {
+    height: 100%;
+    width: 78%;
+}
+
+.bgCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(0, 0, 255, 0.39);
+    text-align: center;
+    margin: 0 1em;
+    border-radius: 0.5em;
+    box-shadow: 1px 3px 13px rgba(0, 0, 0, 0.486);
+}
+
+.center h2, .center p {
+    margin-bottom: 1em;
+    letter-spacing: 0.25em;
+    line-height: 2em;
+}
+
+.colDroite {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 9%;
+    height: 100%;
+}
+
+/*----------CONTACTE-----------*/
+
+.colonneForm { 
+    width: 100%;      
+    background-color: rgba(137, 43, 226, 0.466);
+    margin: 2em 0;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.titreContacte {
+    margin: 1.5em 0;
+    text-align: center;
+}
+
+.contacte {
+    display: flex; 
+    flex-direction: row;   
+    justify-content: center;
+}
+
+.leftInput, 
+.rightInput {
+    
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 2.5em;
+    width: 30%
+
+    
+}
+
+.labelInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0.5em;
+}
+
+input {
+    width: 100%;
+    height: 3em;
+    border-radius: 0.5em;
+    border: none;
+}
+
+
+textarea { 
+    height: 8.5em;      
+    border: none;
+    border-radius: 0.5em;
+}
+
+.submit {
+    cursor: pointer;
+    margin: 2em 0;
+    width: 20em;
+    height: 3em;
+    background-color: rgba(0, 47, 255, 0.233);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.644);
+}
+
+/**********/
+
+
+
+footer {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.815);
+    padding: 1em;
+}
+
+
